@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginLeft="1dp"
+                            android:id="@+id/btnSystem"
+                            android:src="@drawable/ic_lock_black_24dp"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <ImageView
+                            android:id="@+id/btnEdit"
+                            android:src="@drawable/producto"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:text="Leche evaporada"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"
+                            android:id="@+id/tvRowItem"
+                            android:textStyle="italic"
+                            android:textSize="12dp"
+                            android:textColor="#FF5722"
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"/>                       
+                </LinearLayout>
+                        <ImageView
+                            android:id="@+id/btnAddItem"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:src="@drawable/ic_add_black_24dp"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+        </RelativeLayout>
+</LinearLayout>

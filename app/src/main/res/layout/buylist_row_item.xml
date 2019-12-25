@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="100dp">
+        <TextView
+        android:id="@+id/tvSuperMarketName"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Sirena"
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/tvCreateDate"
+            style="@android:style/Widget.Holo.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha : 25/12/2019"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:id="@+id/tvTotalAmountPaid"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total pagado : $8,500.00"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:drawableTint="@color/colorAccent"
+            app:fontFamily="sans-serif-smallcaps" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/btnViewDetail"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorwhite"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnCopy"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorwhite"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_content_copy_black_24dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorwhite"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_remove_black_24dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

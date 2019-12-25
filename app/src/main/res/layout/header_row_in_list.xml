@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="#FFAB40"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/bolsa_de_la_compra2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:text="Productos seleccionados"
+            android:textColor="#040F0D"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

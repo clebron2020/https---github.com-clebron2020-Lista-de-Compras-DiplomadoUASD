@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutMain"
+    android:theme="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCreateList"
+            android:theme="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+        <GridLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                        <TableRow
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/btnSuperMarket"
+                                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="10dp"
+                                    android:text="Super Mercados"
+                                    android:textColor="#FFFFFF"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                    app:backgroundTint="@color/design_default_color_on_secondary" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/btnCategoriaProductos"
+                                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="10dp"
+                                    android:textColor="#FFFFFF"
+                                    android:text="Categoria Productos"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                    app:backgroundTint="@color/colorAccent" />
+                        </TableRow>
+                        <TableRow
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/btnProducts"
+                                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="10dp"
+                                    android:text="Productos"
+                                    android:textColor="#FFFFFF"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                    app:backgroundTint="@color/design_default_color_error" />
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:id="@+id/btnMyList"
+                                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                    android:layout_width="150dp"
+                                    android:textColor="#FFFFFF"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="10dp"
+                                    android:text="Mis Listas"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                    app:backgroundTint="@color/colorPrimaryDark" />
+                        </TableRow>
+
+                </TableLayout>
+        </GridLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

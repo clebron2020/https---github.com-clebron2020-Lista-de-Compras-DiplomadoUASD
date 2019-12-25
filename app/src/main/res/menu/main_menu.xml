@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_supermarket"
+        android:title="Super Mercados"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_productsCategory"
+        android:title="Categorias de productos"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_products"
+        android:title="Productos"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_createlist"
+        android:icon="@drawable/ic_playlist_add_black_24dp"
+        android:title="Crear"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_myList"
+        android:title="Mis listas"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_About"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Acerca"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Configuración"
+        app:showAsAction="always" />
+
+</menu>

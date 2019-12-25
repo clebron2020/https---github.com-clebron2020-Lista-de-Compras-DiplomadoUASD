@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/btnEditInCar"
+                            android:src="@drawable/producto"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"/>
+                        <TextView
+                            android:text="Leche evaporada"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/tvRowItemInCar"
+                            android:textStyle="italic"
+                            android:textSize="12dp"
+                            android:textColor="#FF5722"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:id="@+id/txtQty"
+                            android:layout_marginTop="5dp"
+                            android:text="0"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="4dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:id="@+id/txtPrice"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="45dp"
+                            android:textAlignment="textEnd"
+                            android:text="0.00"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="end" />
+                        <TextView
+                            android:id="@+id/txtTotal"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="45dp"
+                            android:textAlignment="textEnd"
+                            android:text="0.00"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="end" />
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/btnDeleteFromCar"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_check_black_24dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+        </RelativeLayout>
+</LinearLayout>
